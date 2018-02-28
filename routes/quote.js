@@ -3,7 +3,7 @@
 const request = require('request');
 
 const quoteMachine = function (req, res) {
-  res.render('quote', { title: 'Quote Machine' });
+  res.render('quote', { title: 'Musingly' });
 };
 
 const nextQuote = function (req, res) {
